@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-17T17:31:49 CST" name="Default suite" finished-at="2020-03-17T17:32:17 CST" duration-ms="28492">
+    <groups>
+    </groups>
+    <test started-at="2020-03-17T17:31:49 CST" name="Default test" finished-at="2020-03-17T17:32:17 CST" duration-ms="28492">
+      <class name="appium.Test.CalculatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.Test.CalculatorTest@4690b489]" started-at="2020-03-17T17:31:49 CST" name="setUp" finished-at="2020-03-17T17:31:56 CST" duration-ms="7031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startCalculator()[pri:0, instance:appium.Test.CalculatorTest@4690b489]" started-at="2020-03-17T17:31:56 CST" name="startCalculator" description="Init Calculator" finished-at="2020-03-17T17:32:17 CST" duration-ms="21399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCalculator -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:appium.Test.CalculatorTest@4690b489]" started-at="2020-03-17T17:32:17 CST" name="tearDown" finished-at="2020-03-17T17:32:17 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startCalculator status=SUCCESS method=CalculatorTest.startCalculator()[pri:0, instance:appium.Test.CalculatorTest@4690b489] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appium.Test.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
